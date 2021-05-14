@@ -1,0 +1,12 @@
+set current block to the camera.
+set intersected face to -1 to indicate it is at the start 
+loop:
+	check each face around current block:
+		if current face is not the intersected face:
+			if there is an intersection:
+				if there is a collision:
+					store block and face.
+					return
+				else:
+					set current block to this block.
+					set intersected face to this face (i)

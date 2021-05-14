@@ -1,0 +1,13 @@
+get flashlight working
+make candles with colored light
+fix transparent leaves block	(transparancy at the end)
+ask about cameras
+make rainbow
+ask about geometry generation
+create stencil for shadow (just top layer)
+
+
+calculate stencil(){
+
+
+}
